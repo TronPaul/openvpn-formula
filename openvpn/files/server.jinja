@@ -62,7 +62,7 @@ key {{ config.key }}
 {%- if config.dh is defined %}
 dh {{ config.dh }}
 {%- else %}
-dh dh1024.pem
+;dh dh1024.pem
 {%- endif %}
 
 {%- if config.server is defined %}
